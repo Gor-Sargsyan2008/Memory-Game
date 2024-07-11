@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Memory Game</title>
+</head>
+<body>
+    <div id = "center" class="center" style="display: block">
+        <h2>Memory<span>Game</span></h2>
+        <button id = "play-button" type="button">Play</button>  <br>
+    </div>
+
+    <figure>    
+        <img id="figure-jumping" src="./assets/images/img.png"  style="display: block">
+    </figure>
+
+    <div id="count-down" style="display: none">
+        <h1 id="start-count">3</h1>
+    </div>
+
+    
+    <div id="memory-game"></div>
+    <div class="time-div">
+        <p><span id = "time" class="time"></span></p>
+    </div>
+    
+
+    <div id="game-over">
+        <h1><span>Game</span> Over</h1>
+        <h3>You <span>Win</span></h3>
+    </div>
+
+    <div id="gameOver">
+        <h1><span>Game</span> Over!</h1>
+        <h3>You <span>Lose</span></h3>
+    </div>
+
+    <script src="./cards.js"></script>
+    <script src="./game.js"></script>
+</body>
+</html>
